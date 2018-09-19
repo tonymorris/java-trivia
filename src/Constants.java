@@ -1,3 +1,5 @@
+import static java.lang.System.out;
+
 // Constants
 // =========
 
@@ -7,7 +9,7 @@ class S {
   static final int I = 7;
 
   static {
-    System.out.println("S");
+    out.println("S");
   }
 }
 
@@ -15,7 +17,7 @@ class T {
   static final Object S = null;
 
   static {
-    System.out.println("T");
+    out.println("T");
   }
 }
 
@@ -23,7 +25,7 @@ class U {
   static final Object S = "s";
 
   static {
-    System.out.println("U");
+    out.println("U");
   }
 }
 
@@ -31,7 +33,7 @@ class V {
   static final String S = "s";
 
   static {
-    System.out.println("V");
+    out.println("V");
   }
 }
 
@@ -39,7 +41,7 @@ class W {
   static final String S = new String("s");
 
   static {
-    System.out.println("W");
+    out.println("W");
   }
 }
 
@@ -47,7 +49,7 @@ class X {
   static final int I = 7;
 
   static {
-    System.out.println("X");
+    out.println("X");
   }
 }
 
@@ -56,7 +58,7 @@ class Y {
 
   static {
     I = 8;
-    System.out.println("Y");
+    out.println("Y");
   }
 }
 
@@ -64,7 +66,7 @@ class Z {
   static final Integer I = new Integer(7);
 
   static {
-    System.out.println("Z");
+    out.println("Z");
   }
 }
 
