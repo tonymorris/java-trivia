@@ -16,7 +16,7 @@ abstract class Eggs {
 }
 
 class Toast extends Eggs {
-  private int x = 2;
+  private Integer x = 2;
 
   Toast() {
     x = 3;
