@@ -1,5 +1,5 @@
 // Which argument(s), when passed to this program,
-// produce the output: false?
+// produce the output: true?
 public final class Absolutely {
   private Absolutely() throws UnsupportedOperationException {
     throw new UnsupportedOperationException();
